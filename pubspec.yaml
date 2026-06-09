@@ -1,0 +1,60 @@
+name: tailer_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  
+  # Storage & Data
+  shared_preferences: ^2.2.2
+  
+  # Firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.1
+
+  # UI & Tools
+  google_nav_bar: ^5.0.6
+  url_launcher: ^6.2.4
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # App Icon Generator
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google.png
+
+# --- APP ICON CONFIGURATION ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.jpg" # <--- CHANGED FROM .png TO .jpg
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icon.jpg" # <--- CHANGED HERE TOO
+    background_color: "#2F4F4F"
+    theme_color: "#2F4F4F"
+  windows:
+    generate: true
+    image_path: "assets/icon.jpg" # <--- AND HERE
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/icon.jpg" # <--- AND HERE

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "662088859574",
+    "project_id": "khalil-tailors",
+    "storage_bucket": "khalil-tailors.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662088859574:android:2b20930bda02691687cb17",
+        "android_client_info": {
+          "package_name": "com.example.tailer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662088859574-htksht09psq023urnr7gu910otmunkb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tailer_app",
+            "certificate_hash": "42a2177e68c990847745a89fee46121089e73f7f"
+          }
+        },
+        {
+          "client_id": "662088859574-1c44cnql4tdk0q91j5916u107fmas351.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxuWKQqzpAwnS-9xvLa0OwZDiu7h7r5Wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662088859574-1c44cnql4tdk0q91j5916u107fmas351.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
